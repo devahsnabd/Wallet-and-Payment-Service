@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Local databases (SQLite plus WAL and shared-memory sidecar files)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.sqlite*
+*.db-journal
+
+# Environment and secrets (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# Test and coverage output
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Claude Code local settings
+.claude/settings.local.json
+identifier.sqlite
+
+# Tooling caches and temp files
+.eslintcache
+.tmp/
+tmp/
+*.tgz
+*.bak
+.nyc_output/
+
+# Generated API docs, if exported
+openapi.json

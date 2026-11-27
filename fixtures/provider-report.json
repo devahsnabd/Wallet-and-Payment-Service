@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-26",
+  "payments": [
+    { "providerRef": "prv_match_001", "amountMinor": 500000, "currency": "NGN", "status": "succeeded" },
+    { "providerRef": "prv_match_002", "amountMinor": 2500, "currency": "USD", "status": "succeeded" },
+    { "providerRef": "prv_amount_004", "amountMinor": 705000, "currency": "NGN", "status": "succeeded" },
+    { "providerRef": "prv_theirs_only_005", "amountMinor": 90000, "currency": "NGN", "status": "succeeded" },
+    { "providerRef": "prv_failed_006", "amountMinor": 40000, "currency": "NGN", "status": "failed" }
+  ]
+}
